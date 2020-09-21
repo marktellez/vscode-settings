@@ -1,0 +1,12 @@
+{
+  "html": {
+    "snippets": {
+      "label": "<label>$1</label>"
+    }
+  },
+  "css": {
+    "snippets": {
+
+    }
+  }
+}
