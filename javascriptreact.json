@@ -1,0 +1,28 @@
+{
+  "Create component": {
+    "prefix": "comp",
+    "body": [
+      "import React from \"react\";",
+      "",
+      "export default function $1() {",
+      "  return $2",
+      "}"
+    ]
+  },
+  "Create and export default function": {
+    "prefix": "edf",
+    "body": ["export default function $1($2) {", "  return $3", "}"]
+  },
+  "Create state hook": {
+    "prefix": "useState",
+    "body": ["const [$1, set$2] = useState($3)"]
+  },
+  "Create effect hook": {
+    "prefix": "useEffect",
+    "body": ["useEffect(() => {", "  $2", "}, [$3])"]
+  },
+  "Create ref const": {
+    "prefix": "ref",
+    "body": ["const ref = useRef(null)"]
+  }
+}
