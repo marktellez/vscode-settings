@@ -29,6 +29,8 @@
   "editor.minimap.enabled": false,
   "editor.snippetSuggestions": "top",
   "editor.tabSize": 2,
+  "emmet.extensionsPath": "~/.vscode",
+  "editor.hover.enabled": false,
   "emmet.showSuggestionsAsSnippets": true,
   "emmet.triggerExpansionOnTab": true,
   "eslint.alwaysShowStatus": true,
