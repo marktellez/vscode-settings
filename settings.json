@@ -1,0 +1,69 @@
+{
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[ruby]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "beautify.language": {
+    "css": ["css", "less", "scss"],
+    "html": ["htm", "html"],
+    "js": {
+      "filename": [".jshintrc", ".jsbeautifyrc"],
+      "type": ["javascript", "json", "jsonc"]
+    }
+  },
+  "editor.fontFamily": "Fira Code, monospace",
+  "editor.fontLigatures": false,
+  "editor.fontSize": 24,
+  "editor.formatOnSave": true,
+  "editor.minimap.enabled": false,
+  "editor.snippetSuggestions": "top",
+  "editor.tabSize": 2,
+  "emmet.showSuggestionsAsSnippets": true,
+  "emmet.triggerExpansionOnTab": true,
+  "eslint.alwaysShowStatus": true,
+  "eslint.format.enable": true,
+  "files.associations": {
+    "*.css": "css",
+    "*.erb": "erb"
+  },
+  "html.format.wrapLineLength": 40,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "prettier.jsxBracketSameLine": true,
+  "prettier.jsxSingleQuote": true,
+  "prettier.packageManager": "yarn",
+  "prettier.prettierPath": "/Users/mark/.nvm/versions/node/v10.22.0/bin/",
+  "prettier.printWidth": 70,
+  "prettier.proseWrap": "always",
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "all",
+  "ruby.codeCompletion": "rcodetools",
+  "ruby.format": "rufo",
+  "ruby.intellisense": "rubyLocate",
+  "ruby.interpreter.commandPath": "/Users/mark/.rubies/ruby-2.7.0/bin/ruby",
+  "rufo.exe": "/Users/mark/.gem/ruby/2.7.0/bin/rufo",
+  "terminal.explorerKind": "external",
+  "terminal.external.osxExec": "iTerm.app",
+  "terminal.external.windowsExec": "",
+  "terminal.integrated.fontFamily": "Fira Code",
+  "terminal.integrated.fontSize": 18,
+  "terminal.integrated.lineHeight": 1.25,
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "update.mode": "none",
+  "window.zoomLevel": 0,
+  "workbench.colorTheme": "CodeSandbox",
+  "workbench.editor.labelFormat": "short",
+  "workbench.iconTheme": "simple-icons",
+  "workbench.startupEditor": "readme"
+}
