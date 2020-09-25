@@ -12,7 +12,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[ruby]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "jnbt.vscode-rufo"
   },
   "beautify.language": {
     "css": ["css", "less", "scss"],
@@ -26,12 +26,14 @@
   "editor.fontLigatures": false,
   "editor.fontSize": 24,
   "editor.formatOnSave": true,
+  "editor.hover.enabled": false,
   "editor.minimap.enabled": false,
   "editor.snippetSuggestions": "top",
   "editor.tabSize": 2,
+  "editor.quickSuggestionsDelay": 10,
+  "editor.suggest.localityBonus": true,
+  "editor.parameterHints.enabled": false,
   "emmet.extensionsPath": "~/.vscode",
-  "editor.hover.enabled": false,
-  "emmet.showSuggestionsAsSnippets": true,
   "emmet.triggerExpansionOnTab": true,
   "eslint.alwaysShowStatus": true,
   "eslint.format.enable": true,
@@ -67,5 +69,8 @@
   "workbench.colorTheme": "CodeSandbox",
   "workbench.editor.labelFormat": "short",
   "workbench.iconTheme": "simple-icons",
-  "workbench.startupEditor": "readme"
+  "workbench.startupEditor": "readme",
+  "workbench.tree.renderIndentGuides": "none",
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.acceptSuggestionOnEnter": "off"
 }
