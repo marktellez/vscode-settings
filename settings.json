@@ -22,11 +22,15 @@
       "type": ["javascript", "json", "jsonc"]
     }
   },
+  "files.exclude": {
+    "node_modules/": true
+  },
+  "editor.lineHeight": 36,
+  "editor.letterSpacing": 0.8,
   "editor.fontFamily": "Fira Code, monospace",
   "editor.fontLigatures": false,
   "editor.fontSize": 24,
   "editor.formatOnSave": true,
-  "editor.hover.enabled": false,
   "editor.minimap.enabled": false,
   "editor.snippetSuggestions": "top",
   "editor.tabSize": 2,
@@ -39,7 +43,8 @@
   "eslint.format.enable": true,
   "files.associations": {
     "*.css": "css",
-    "*.erb": "erb"
+    "*.erb": "erb",
+    "*.mdx": "javascriptreact"
   },
   "html.format.wrapLineLength": 40,
   "javascript.updateImportsOnFileMove.enabled": "always",
@@ -69,8 +74,22 @@
   "workbench.colorTheme": "CodeSandbox",
   "workbench.editor.labelFormat": "short",
   "workbench.iconTheme": "simple-icons",
-  "workbench.startupEditor": "readme",
+  "workbench.startupEditor": "newUntitledFile",
   "workbench.tree.renderIndentGuides": "none",
   "editor.acceptSuggestionOnCommitCharacter": false,
-  "editor.acceptSuggestionOnEnter": "off"
+  "editor.acceptSuggestionOnEnter": "off",
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#263238",
+    "statusBar.noFolderBackground": "#263238",
+    "statusBar.debuggingBackground": "#263238"
+  },
+
+  "workbench.activityBar.visible": false,
+  "workbench.sideBar.location": "right",
+  "workbench.statusBar.visible": false,
+
+  "editor.tokenColorCustomizations": {
+    "functions": "#9BB8FA"
+  },
+  "debug.node.autoAttach": "on"
 }
